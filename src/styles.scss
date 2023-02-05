@@ -1,0 +1,18 @@
+$spacer : 10px;
+body{
+    background-color: #000000;
+    color: #eeeeee;
+    font-family: 'Trebuchet MS';
+    font-size: $spacer * 3;
+    font-weight: 400 bold;
+    animation: ease infinite;
+    animation-name: backgroundColourSwitch;
+    animation-duration: 15s;
+}
+
+@keyframes backgroundColourSwitch{
+    0%   {background-color: orchid;}
+    25%  {background-color: #76B947;}
+    50%  {background-color: lavender;}
+    100% {background-color: black;}
+}
